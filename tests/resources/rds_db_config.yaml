@@ -1,10 +1,10 @@
 
 
-aws_assume_role_arn: "arn:aws:iam::12345678910:role/iam_role"
+aws_assume_role_arn: "arn:aws:iam::123456789:role/ml_iam_role"
 aws_assume_role_session_name: "ml_pipeline_reader"
-endpoint: "test.us-west-2.rds.amazonaws.com"
+endpoint: "ml-rds-aurora-mysql-cluster.us-west-2.rds.amazonaws.com"
 port: 3306
-database_name: "ml_feature_store"
+database_name: "mldb"
 database_username: "ml_user"
 database_password: ""
 database_connection_timeout: 10
